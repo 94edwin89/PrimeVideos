@@ -1,0 +1,268 @@
+
+:root{
+    --navclor:rgb(27,37,48);
+    --font-family: 'Montserrat', sans-serif;
+    --font-family: 'Poiret One', cursive;
+   --font-family: 'Poppins', sans-serif;
+   --font-family: 'Roboto Condensed', sans-serif;
+    --font-family: 'Source Sans Pro', sans-serif;
+    --nav-p-color: rgb(197, 197, 197);
+}
+
+nav{
+    background-color:var(--navclor);
+    color: var(--nav-p-color);
+    width: 100vw;
+    position: sticky;
+    z-index: 1;
+    
+    
+}
+.head-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.nav-first{
+    display: flex;
+    box-sizing: content-box;
+    
+    
+    
+}
+.nav-second{
+    display:flex;    
+    box-sizing: content-box;
+}
+.prime-logo{
+    width: 7rem;
+}
+
+.nav-items{
+margin:.4rem;
+
+}
+.btn{
+    background-color: var(--navclor);
+}
+.btn-blue{
+    background-color: rgb(55, 55, 241);
+    border: none;
+    border-radius: 4px;
+    height: 2.4rem;
+    color: white;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    
+}
+.btn-blue:hover{
+    background-color: rgb(161, 161, 250);
+}
+.btn{
+align-items: center;
+border: none;
+mix-blend-mode:lighten;
+color: var(--nav-p-color);
+
+}
+/* end of the navigation section */
+.welcome-area{
+    width: 100vw;
+}
+.image1{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+}
+.image1-heading h2{
+    position: relative;
+    left: 4rem;
+    bottom: -8rem;
+    color: white;
+    font-family: var(--font-family);
+    font-size: 3rem;
+    font-weight: 600;
+    
+}
+.image1-heading p{
+    color: white;
+    position: relative;
+    left: 4rem;
+    bottom: -8rem;
+    font-family: var(--font-family);
+    font-size: 1.6rem;
+
+   
+}
+#btn-image1{
+    margin: 4rem;
+    margin-top: 8rem;
+    background-color: rgb(76, 76, 179);
+    width: 16rem;
+    height: 4rem;
+    font-weight: 600;
+}
+#btn-image1:hover{
+    background-color: rgb(112, 112, 185);
+}
+
+
+.image2{
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+    position: absolute;
+}
+.image2-heading {
+    position: relative;
+    left:73rem;
+    bottom: -15rem;
+    color: white;
+    font-family: var(--font-family);
+    font-size: 1.4rem;
+    text-align: end;
+    margin-right: 82rem;
+}
+.image2-heading h2{
+    font-weight: 600;
+}
+#btn-image2{
+    margin-left: 73rem;
+    margin-top: 15rem;
+    background-color: rgb(76, 76, 179);
+    width: 16rem;
+    height: 4rem;
+    font-weight: 600;
+}
+#btn-image2:hover{
+    background-color: rgb(112, 112, 185);
+}
+.channel-page{
+    position: relative;
+   
+    font-family: var(--font-family);
+    display: flex;
+    width: 100vw;
+    
+    margin-bottom: 5rem;
+}
+.channel-discription{
+    margin-left: 3rem;
+    margin-top: 1.8rem;
+}
+.channel-page h2{
+font-size: 3rem;
+}
+.channel-page p{
+    font-size: 1.7rem;
+    line-height: 1;
+}
+.channel-image{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 11px;
+    margin: 2rem;
+    
+}
+.channel{
+    width: 196px;
+    cursor: pointer;
+}
+.channel:hover{
+    border-style:ridge;
+}
+/* end of the channel area */
+
+.stick-image{
+    width: 100vw;
+    height: 75vh;
+    position: absolute;
+    object-fit: cover;
+    
+}
+#btn-stick{
+    background-color: rgb(76, 76, 179);
+    width: 16rem;
+    height: 4rem;
+    font-weight: 600;
+}
+#btn-stick:hover{
+    background-color: rgb(112, 112, 185);
+}
+.stick-heading{
+    color: white;
+    position: relative;
+     left: 60rem;
+    padding-top: 2em;
+    font-family: var(--font-family);
+   text-align: end;
+   margin-right: 62rem;
+    
+
+}
+.stick-heading h2{
+    font-size: 2.6rem;
+    font-weight: 600;
+    
+    
+}
+.stick-heading p{
+    font-size: 1.4rem;
+}
+
+
+/* family section starts here */
+
+.image4{
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+    position: absolute;
+    margin-top: 3.5rem;
+
+}
+.family-heading{
+    color: white;
+    position: relative;
+    padding-top: 12rem;
+    font-family: var(--font-family);
+    margin-left: 2rem;
+}
+.family-heading h2{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.family-heading p{
+    font-size: 1.5rem;
+}
+#btn-family{
+    background-color: rgb(76, 76, 179);
+    width: 16rem;
+    height: 4rem;
+    font-weight: 600;
+
+}
+#btn-family:hover{
+    background-color: rgb(112, 112, 185);
+}
+/* end of the main section */
+.footer-image{
+    width:8rem;
+    margin-top: 12rem;
+}
+.footer-section{
+    background-color: var(--navclor);
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.footer-section p{
+    color: rgb(98, 98, 243);
+}
+#copy{
+    color: grey;
+}
